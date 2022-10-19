@@ -40,7 +40,7 @@ namespace Labb2
             IsFunctioning = isFunctioning;
         }
 
-         public void Use()
+        public void Use()
         {
 
             if (IsFunctioning == true)
