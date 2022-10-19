@@ -40,7 +40,7 @@ namespace Labb2
             IsFunctioning = isFunctioning;
         }
 
-        public void Use()
+         public void Use()
         {
 
             if (IsFunctioning == true)
@@ -63,7 +63,7 @@ namespace Labb2
 
     class Kitchen
     {
-        public List<KitchenAppliance> KitchenAppliances;
+        List<KitchenAppliance> KitchenAppliances;
 
         public void PrintMenu()
         {
